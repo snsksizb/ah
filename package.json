@@ -1,0 +1,21 @@
+{
+  "name": "bot-wa-termux-premium",
+  "version": "3.0.0",
+  "description": "Bot WhatsApp Termux Terlengkap",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "pm2": "pm2 start index.js --name botwa --time"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.6.0",
+    "pino": "^8.20.0",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "mime-types": "^2.1.35",
+    "form-data": "^4.0.0",
+    "node-cron": "^3.0.2"
+  }
+}
